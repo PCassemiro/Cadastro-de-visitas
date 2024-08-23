@@ -4,20 +4,78 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+/*@media (max-width: 106px) {*/
+body {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50%;
+}
+/*}*/
 
-
-.CadastroNome{
-
+body h1 {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 4vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50%;
 }
 
-.CadastroDestino{
-
+body p {
+  color: rgb(100, 100, 100);
 }
 
-.CadastroDataHora{
 
+  /* Ajuste conforme necessário */
+  form {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
+
+input {
+  border: none;
+  outline: none;
 }
 
-button{
-  
+.CadastroNomeDestino {
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.CadastroDataHora {
+  float: left;
+  width: 50%;
+  font-weight: bold;
+}
+
+.Chamado{
+  height: 3vh;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.Botao button {
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  color: beige;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
